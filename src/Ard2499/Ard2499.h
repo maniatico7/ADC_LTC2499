@@ -27,7 +27,7 @@ LICENSE:
 #include "Wire.h"
 
 #ifndef _BV
-#define _BV(a) (1<<(a))  //Byteshifting 1 um a Stellen
+#define _BV(a) (1<<(a))  //Bitshifting 1 um a Stellen
 #define _UNDEFINE_BV
 #endif
 
